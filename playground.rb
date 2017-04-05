@@ -13,6 +13,10 @@ class Student < ActiveRecord::Base
   def test
     puts "Hello"
   end
+
+  def user
+    puts "Get a user"
+  end
 end
 
 ####################################
