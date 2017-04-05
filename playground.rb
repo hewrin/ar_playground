@@ -12,6 +12,7 @@ ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => "./s
 class Student < ActiveRecord::Base
   def test
     print "Hello"
+    puts "Beans"
   end
 
   def user
