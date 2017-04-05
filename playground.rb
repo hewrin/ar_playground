@@ -11,6 +11,7 @@ ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => "./s
 # This sets up ActiveRecord to use Ruby OOP with SQL data
 class Student < ActiveRecord::Base
   def test
+    print "Hello"
     puts "Beans"
   end
 
